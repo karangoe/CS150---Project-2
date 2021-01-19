@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Customer
+comment1.params=_arrival
+comment1.target=Customer(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Customer\r\n\ sets\ arrivalTime\ as\ the\ paramenter\ sent\ to\ it\r\n\ and\ sets\ departureTime\ as\ arrivalTime-1,\ because\r\n\ in\ case\ gettingServed\ is\ never\ set,\ we\ know\ the\r\n\ customer\ was\ never\ served\ so\ the\ waiting\ time\ is\r\n\ not\ applicable\ and\ the\ waiting\ time\ will\ be\ -1\r\n\ \r\n\ @param\ _arrival\ arrival\ time\ of\ the\ customer\r\n
+comment2.params=_served
+comment2.target=void\ setGettingServedTime(int)
+comment2.text=\r\n\ Sets\ departureTime\ as\ the\ parameter\r\n\ sent\ to\ it\r\n\ \r\n\ @param\ _departure\ time\ of\ the\ departure\ of\ the\ customer\r\n
+comment3.params=
+comment3.target=int\ waitingTime()
+comment3.text=\r\n\ returns\ waiting\ time,\ that\ is\ time\ from\ arrival\r\n\ to\ time\ they\ get\ served.\ If\ the\ customer\ was\ never\ served\r\n\ returns\ -1.\r\n\ \r\n\ @return\ the\ time\ between\ arriving\ and\ time\ of\ serving\r\n
+comment4.params=
+comment4.target=int\ getArrival()
+numComments=5

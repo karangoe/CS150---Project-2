@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=CoffeeShop
+comment1.params=
+comment1.target=CoffeeShop()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CoffeeShop\r\n\ initializes\ the\ priority\ queue\r\n
+comment2.params=event
+comment2.target=void\ add(Event)
+comment2.text=\r\n\ Adds\ event\ to\ the\ priority\ queue\r\n
+comment3.params=
+comment3.target=Event\ poll()
+comment3.text=\r\n\ returns\ top\ event\ from\ the\ priority\r\n\ queue\ and\ removes\ it.\r\n\ \r\n\ @return\ top\ event\ in\ priority\ queue\r\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\r\n\ Checks\ if\ the\ priority\ queue\ is\ empty\r\n\ \r\n\ @return\ true\ if\ the\ priority\ queue\ is\ empty\r\n\ and\ false\ if\ the\ priority\ queue\ is\ not\ empty\r\n
+numComments=5
